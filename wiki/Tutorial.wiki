@@ -30,9 +30,9 @@ cccc
 
 There are many ways to get information from an abc file with abc4j. The simpliest one is
 to create a TuneBook from this file. Then you get access to all the information contained
-in this abc file like if it was parsed. Parsing phasis are hidden inside the 'TuneBook'
-object. Once you get the instance of 'TuneBook' that represents the "tutorial.abc" file,
-it's easy to know the number of tunes inside the 'TuneBook', titles of tunes contained in it
+in this abc file like if it was parsed. Parsing phasis are hidden inside the `TuneBook`
+object. Once you get the instance of `TuneBook` that represents the "tutorial.abc" file,
+it's easy to know the number of tunes inside the `TuneBook`, titles of tunes contained in it
 or who composed the tune :
 {{{
 import java.io.File;
