@@ -2,8 +2,8 @@
 
 = Introduction =
 This parts explains
-* How to get information from an abc file
-* play a tune
+How to get information from an abc file
+play a tune
 
 = Details =
 
@@ -13,7 +13,7 @@ Add your content here.  Format your content with:
   * Automatic links to other wiki pages
 
 
-Getting information from an abc file.
+=Getting information from an abc file=
 
 Let's consider the following abc file "tutorial.abc":
 {{{
@@ -65,10 +65,12 @@ public void main(String[] arg)
     .
 }}}
 The execution of this main class gives :
-
+{{{
 Nb of tunes in tutorial.abc : 2
 Title n°10 is Simple scale exercise and has been composed by noOne
-Getting the score from a tune
+}}}
+
+=Getting the score from a tune=
 
 The score (class Tune.Score) is the place where information like key, notes, barlines,
 single or multiparts definition is stored. A score contains two types of elements:
@@ -91,7 +93,7 @@ System.out.println(iter.next());
 .
 .
 }}}
-How to play a tune
+=How to play a tune=
 
 Here's the code to play a tune contained in an ABC file "ceili.abc" using midi:
 {{{
