@@ -1,10 +1,9 @@
 #summary This tutorial shows the basics of abc4j.
 
 = Introduction =
-||
-The purpose of abc4j is to ease the the manipulation and the extract of information from
-abc tunes in general and abc files in particular.
-||
+||The purpose of abc4j is to ease the the manipulation and the extract of information from
+abc tunes in general and abc files in particular.||
+
 
 =Getting information from an abc file=
 Let's consider the following abc file `tutorial.abc`:
