@@ -1,12 +1,10 @@
 #summary This tutorial shows the basics of abc4j.
 
 = Introduction =
-This parts explains
- # How to get information from an abc file
- # play a tune
+The purpose of abc4j is to ease the the manipulation and the extract of information from
+abc tunes in general and abc files in parcticular.
 
 =Getting information from an abc file=
-
 Let's consider the following abc file "tutorial.abc":
 {{{
 X:10
@@ -63,7 +61,6 @@ Title n°10 is Simple scale exercise and has been composed by noOne
 }}}
 
 =Getting the score from a tune=
-
 The score (class Tune.Score) is the place where information like key, notes, barlines,
 single or multiparts definition is stored. A score contains two types of elements:
 
@@ -85,8 +82,8 @@ System.out.println(iter.next());
 .
 .
 }}}
-=How to play a tune=
 
+=How to play a tune=
 Here's the code to play a tune contained in an ABC file "ceili.abc" using midi:
 {{{
 import java.io.File;
