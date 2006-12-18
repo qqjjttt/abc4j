@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary This tutorial shows the basics of abc4j.
 
 = Introduction =
 
