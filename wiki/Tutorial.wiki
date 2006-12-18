@@ -2,16 +2,8 @@
 
 = Introduction =
 This parts explains
-How to get information from an abc file
-play a tune
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
+#How to get information from an abc file
+#play a tune
 
 =Getting information from an abc file=
 
