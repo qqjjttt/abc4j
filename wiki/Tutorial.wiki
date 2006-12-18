@@ -16,7 +16,7 @@ Add your content here.  Format your content with:
 Getting information from an abc file.
 
 Let's consider the following abc file "tutorial.abc":
-
+{{{
 X:10
 T:Simple scale exercise
 M:4/4
@@ -36,7 +36,7 @@ P:B
 bbbb
 P:C
 cccc
-
+}}}
 
 There are many ways to get information from an abc file with abc4j. The simpliest one is
 to create a TuneBook from this file. Then you get access to all the information contained
