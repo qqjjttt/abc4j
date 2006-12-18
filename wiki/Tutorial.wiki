@@ -1,9 +1,9 @@
 #summary This tutorial shows the basics of abc4j.
 
 = Introduction =
-
-Add your content here.
-
+This parts explains
+* How to get information from an abc file
+* play a tune
 
 = Details =
 
