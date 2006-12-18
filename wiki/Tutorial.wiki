@@ -2,8 +2,8 @@
 
 = Introduction =
 This parts explains
-#How to get information from an abc file
-#play a tune
+ # How to get information from an abc file
+ # play a tune
 
 =Getting information from an abc file=
 
