@@ -34,4 +34,4 @@ j.setVisible(true);
 }}}
 
 This will display : 
-[./scoreEx01.JPG]
+[http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
