@@ -1,7 +1,7 @@
 #summary This tutorial explains you briefly how to use the capabilities of abc4j to display musical scores.
 
 = Introduction =
-You will learn how to easily display a musical scroll by using abc4j classes.
+You will learn how to easily display a musical score by using abc4j classes.
 
 = Details =
 Let's consider the following code example :
