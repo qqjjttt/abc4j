@@ -1,4 +1,5 @@
 #summary This tutorial shows the basics of abc4j.
+#labels Featured
 
 = Introduction =
 The purpose of abc4j is to ease the the manipulation and the extract of information from
