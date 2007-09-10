@@ -1,4 +1,5 @@
 #summary Exposes briefly how to use abc4j to display musical scores.
+#labels Featured
 
 = Introduction =
 You will learn how to easily display a musical score by using abc4j classes.
