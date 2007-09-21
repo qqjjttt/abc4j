@@ -14,7 +14,7 @@ import abc.notation.*;
 import abc.ui.swing.score.JScoreComponent;
 
 ....
-
+public static void main (String[] arg) {
 File file = new File("D:/path2UrAbcFile/myFileabc");
 TuneBook tb = new TuneBook(file);
 Tune tune = tb.getTune(60); //retrieve the tune to display from the tunebook using its reference number.
@@ -25,6 +25,7 @@ JFrame j = new JFrame();
 j.setSize(1000, 400);
 j.add(scoreUI);
 j.setVisible(true);
+}
 }}}
 
 will give :
@@ -88,6 +89,7 @@ j.setVisible(true);
 will display : 
 
 [http://farm2.static.flickr.com/1150/1417694907_04f95d09f4.jpg]
+ 
  
  
  
