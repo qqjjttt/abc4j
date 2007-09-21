@@ -16,7 +16,7 @@ import abc.ui.swing.score.JScoreComponent;
 
 File file = new File("D:/path2UrAbcFile/myFileabc");
 TuneBook tb = new TuneBook(file);
-Tune tune = tb.getTune(60); //retrieve your tune from its reference number.
+Tune tune = tb.getTune(60); //retrieve the tune to display from the tunebook using its reference number.
 JScoreComponent jscore = new JScoreComponent();
 jscore.setTune(tune);
 scoreUI.setTune(tune);
@@ -60,6 +60,7 @@ j.setVisible(true);
 will display : 
 
 [http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
+ 
  
  
  
