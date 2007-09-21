@@ -45,6 +45,14 @@ to get :
 
 [http://farm2.static.flickr.com/1361/1417544947_2aee9eb888.jpg]
 
+= Write a music score to a file =
+Scores rendered using the `JScoreComponent` can also be written to disk (as a .PNG file with transparent background color).
+
+This can be executed easily by invoking : 
+{{{
+jscore.writeScoreTo(new File("D:/path2UrPngFile/myScore.png"));
+}}}
+
 = Create a music score from scratch =
 You can easily create musical scores from scratch (without parsing any abc file) by building up your tune.
 For instance :
@@ -79,6 +87,7 @@ j.setVisible(true);
 will display : 
 
 [http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
+ 
  
  
  
