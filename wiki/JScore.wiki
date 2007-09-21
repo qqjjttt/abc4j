@@ -6,6 +6,7 @@ You will learn how to display and manipulate music scores with abc4j.
 
 = Display the score of a tune retrieved from an abc file =
 The `abc.notation.Tune` instances that are retrieved from the parsing of an abc file can be directly set to a `abc.ui.swing.JScoreComponent`. Then, you just have to use this component as a normal Swing component to get your score rendered.
+
 ex:
 {{{
 import javax.swing.JFrame;
@@ -78,6 +79,7 @@ j.setVisible(true);
 will display : 
 
 [http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
+ 
  
  
  
