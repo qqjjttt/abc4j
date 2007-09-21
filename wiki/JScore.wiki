@@ -27,7 +27,7 @@ j.add(scoreUI);
 j.setVisible(true);
 }}}
 
-You would get a a result such as :
+will give :
 
 [http://farm2.static.flickr.com/1415/1417544943_9b7483eba0.jpg]
 
@@ -79,6 +79,7 @@ j.setVisible(true);
 will display : 
 
 [http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
+ 
  
  
  
