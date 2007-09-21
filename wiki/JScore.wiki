@@ -33,6 +33,7 @@ will give :
 
 ==Justified alignment==
 abc4j supports music score justified alignment. You can get a nicer music score rendition by using the method `setJustification(true);` on `JScoreComponent` instances.
+
 Just update one line in the the previous example
 {{{
 ...
@@ -87,6 +88,7 @@ j.setVisible(true);
 will display : 
 
 [http://farm2.static.flickr.com/1150/1417694907_04f95d09f4.jpg]
+ 
  
  
  
