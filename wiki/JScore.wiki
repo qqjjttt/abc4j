@@ -4,7 +4,8 @@
 = Introduction =
 You will learn how to easily display and manipulate musical scores by using abc4j classes.
 
-= Display the tune of a tune retrieved from an abc file =
+= Display the score of a tune retrieved from an abc file =
+`Tune`
 
 
 = Create a music score from scratch =
@@ -41,5 +42,6 @@ j.setVisible(true);
 will display : 
 
 [http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
+ 
  
  
