@@ -26,7 +26,8 @@ j.add(scoreUI);
 j.setVisible(true);
 }}}
 
-You would get a result such as : 
+You would get a result such as :
+ 
 [http://farm2.static.flickr.com/1415/1417544943_9b7483eba0.jpg]
 
 ==Justified alignment==
@@ -40,6 +41,7 @@ jscore.setTune(tune);
 ...
 }}}
 to get :
+
 [http://farm2.static.flickr.com/1361/1417544947_2aee9eb888.jpg]
 
 = Create a music score from scratch =
@@ -76,6 +78,7 @@ j.setVisible(true);
 will display : 
 
 [http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
+ 
  
  
  
