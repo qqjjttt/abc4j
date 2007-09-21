@@ -2,10 +2,11 @@
 #labels Featured
 
 = Introduction =
-You will learn how to easily display a musical score by using abc4j classes.
+You will learn how to easily display and manipulate musical scores by using abc4j classes.
 
 = Details =
-Let's consider the following code example :
+You can easily create musical scores from scratch (without parsing any abc file) by building up your tune.
+For instance :
 {{{
 import javax.swing.JFrame;
 import abc.notation.*;
@@ -37,3 +38,4 @@ j.setVisible(true);
 will display : 
 
 [http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
+ 
