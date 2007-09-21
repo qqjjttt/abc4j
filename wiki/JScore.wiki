@@ -65,6 +65,7 @@ import abc.ui.swing.score.JScoreComponent;
 
 ....
 
+public static void main (String[] arg) {
 Tune tune = new Tune();
 KeySignature key = new KeySignature(Note.D, KeySignature.MAJOR);
 tune.getScore().addElement(key);
@@ -84,11 +85,13 @@ JFrame j = new JFrame();
 j.setSize(1000, 400);
 j.add(scoreUI);
 j.setVisible(true);
+}
 }}}
 
 will display : 
 
 [http://farm2.static.flickr.com/1150/1417694907_04f95d09f4.jpg]
+ 
  
  
  
