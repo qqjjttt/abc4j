@@ -26,6 +26,22 @@ j.add(scoreUI);
 j.setVisible(true);
 }}}
 
+You would get a result such as : 
+[http://farm2.static.flickr.com/1415/1417544943_9b7483eba0.jpg]
+
+==Justified alignment==
+abc4j supports music score justified alignment. You can get a nicer music score rendition by using the method `setJustification(true);` on `JScoreComponent` instances.
+Just update one line in the the previous example
+{{{
+...
+JScoreComponent jscore = new JScoreComponent();
+jscore.setJustification(true);
+jscore.setTune(tune);
+...
+}}}
+to get :
+[http://farm2.static.flickr.com/1361/1417544947_2aee9eb888.jpg]
+
 = Create a music score from scratch =
 You can easily create musical scores from scratch (without parsing any abc file) by building up your tune.
 For instance :
@@ -60,6 +76,7 @@ j.setVisible(true);
 will display : 
 
 [http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
+ 
  
  
  
