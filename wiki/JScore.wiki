@@ -26,8 +26,8 @@ j.add(scoreUI);
 j.setVisible(true);
 }}}
 
-You would get a result such as :
- 
+You would get a a result such as :
+
 [http://farm2.static.flickr.com/1415/1417544943_9b7483eba0.jpg]
 
 ==Justified alignment==
@@ -78,6 +78,7 @@ j.setVisible(true);
 will display : 
 
 [http://abc4j.googlecode.com/svn/wiki/scoreEx01.jpg]
+ 
  
  
  
