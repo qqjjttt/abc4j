@@ -3,6 +3,7 @@
 = Introduction =
 You will find exposed step by step, how to get the following score displayed thanks to abc4j :
 
+[http://u1.ipernity.com/u/3/1D/F2/1176093.bbce890f1.l.jpg]
 = Details =
 The abc notation is only one way to display scores, the other one can be achieved using the music model directly that is object oriented based instead of being ascii notation based.
 
@@ -31,7 +32,9 @@ public static void main (String[] arg) {
 }
 }}}
 
-The execution of this code will display : 
+The execution of this code will display :
+
+[http://u1.ipernity.com/u/3/1E/F2/1176094.65f4112d1.l.jpg]
 
 As you may notice, the abc notation does not implicitly separate notes. If you write 
 
