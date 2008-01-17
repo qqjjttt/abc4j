@@ -1,4 +1,5 @@
 #summary This tutorial exposes briefly how to display a score using abc music notation.
+#labels Featured
 
 = Introduction =
 You will find exposed step by step, how to get the following score displayed thanks to abc4j :
