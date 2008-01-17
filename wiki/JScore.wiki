@@ -55,43 +55,7 @@ This can be executed easily by invoking :
 jscore.writeScoreTo(new File("D:/path2UrPngFile/myScore.png"));
 }}}
 
-= Create a music score from scratch =
-You can easily create musical scores from scratch (without parsing any abc file) by building up your tune.
-For instance :
-{{{
-import javax.swing.JFrame;
-import abc.notation.*;
-import abc.ui.swing.score.JScoreComponent;
 
-....
-
-public static void main (String[] arg) {
-Tune tune = new Tune();
-KeySignature key = new KeySignature(Note.D, KeySignature.MAJOR);
-tune.getScore().addElement(key);
-Tune.Score score = tune.getScore();
-score.addElement(TimeSignature.SIGNATURE_4_4);
-score.addElement(new Note(Note.C));
-score.addElement(new Note(Note.D));
-score.addElement(new Note(Note.E));
-score.addElement(new Note(Note.F));
-score.addElement(new Note(Note.G));
-score.addElement(new Note(Note.A));
-score.addElement(new Note(Note.B));
-score.addElement(new Note(Note.c));
-JScoreComponent scoreUI =new JScoreComponent();
-scoreUI.setTune(tune);
-JFrame j = new JFrame();
-j.setSize(1000, 400);
-j.add(scoreUI);
-j.setVisible(true);
-}
-}}}
-
-will display : 
-
-[http://farm2.static.flickr.com/1150/1417694907_04f95d09f4.jpg]
- 
  
  
  
