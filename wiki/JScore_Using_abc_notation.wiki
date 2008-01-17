@@ -27,7 +27,6 @@ public static void main (String[] arg) {
 	j.setSize(500, 200);
 	j.add(scoreUI);
 	j.pack();
-	//System.out.println(sp.getSize());
 	j.setVisible(true);
 }
 }}}
@@ -36,20 +35,58 @@ The execution of this code will display :
 
 [http://u1.ipernity.com/u/3/1E/F2/1176094.65f4112d1.l.jpg]
 
-As you may notice, the abc notation does not implicitly separate notes. If you write 
+As you may notice, the abc notation does not implicitly separate notes.
 
 ==Step 2==
 Then we need to add the time signature and the measure bars to the tune. This will result into : 
 {{{
 X:0
 T:A simple scale exercise
-M:4/4
 K:D
 CDEF|GABc|defg|gfed|cBAG|FEDC
 }}}
+Just replace the {{{tuneAsString}}} declaration with :
+{{{
+String tuneAsString = "X:0\nT:A simple scale exercise\nK:D\nCDEF|GABc|defg|gfed|cBAG|FEDC\n";
+}}}
+and you'll get:
 
+[http://u1.ipernity.com/u/3/4C/F2/1176140.a5391a401.l.jpg]
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+==Step 3==
+Now we'll set the time signature using {{{M:4/4}}} and group the notes by two using spaces. The tune now looks like : 
+{{{
+X:0
+T:A simple scale exercise
+M:4/4
+K:D
+CD EF|GA Bc|de fg|gf ed|cB AG|FE DC
+}}}
+{{{tuneAsString}}} declaration is now :
+{{{
+String tuneAsString = "X:0\nT:A simple scale exercise\nM:4/4\nK:D\nCD EF|GA Bc|de fg|gf ed|cB AG|FE DC\n";
+}}}
+and you'll get:
+
+[http://u1.ipernity.com/u/3/53/F2/1176147.05efbe7d1.l.jpg]
+
+==Step 4==
+We just need to add the tie and the slurs to get the score fully corresponding to what we were expecting.
+Let's correct the {{{tuneAsString}}} to :
+{{{
+String tuneAsString = "X:0\nT:A simple scale exercise\nM:4/4\nK:D\n(CD EF|G)A Bc|de fg-|gf ed|cB A(G|FE DC)\n";
+}}}
+
+The corresponding abc tune is : 
+{{{
+X:0
+T:A simple scale exercise
+M:4/4
+K:D
+(CD EF|G)A Bc|de fg-|gf ed|cB A(G|FE DC)
+}}}
+and the resulting score is 
+
+[http://u1.ipernity.com/u/3/59/F2/1176153.b2cce7621.l.jpg]
+
+and that's it !!
