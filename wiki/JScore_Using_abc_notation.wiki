@@ -31,7 +31,6 @@ public static void main (String[] arg) {
 	JScoreComponent scoreUI =new JScoreComponent();
 	scoreUI.setTune(tune);
 	JFrame j = new JFrame();
-	j.setSize(500, 200);
 	j.add(scoreUI);
 	j.pack();
 	j.setVisible(true);
