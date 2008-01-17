@@ -22,15 +22,15 @@ JScoreComponent jscore = new JScoreComponent();
 jscore.setTune(tune);
 scoreUI.setTune(tune);
 JFrame j = new JFrame();
-j.setSize(1000, 400);
 j.add(scoreUI);
+j.pack();
 j.setVisible(true);
 }
 }}}
 
 will give :
 
-[http://farm2.static.flickr.com/1415/1417544943_9b7483eba0.jpg]
+http://u1.ipernity.com/u/3/E3/F6/1177315.55c07b831.l.jpg
 
 ==Justified alignment==
 abc4j supports music score justified alignment. You can get a nicer music score rendition by using the method `setJustification(true);` on `JScoreComponent` instances.
@@ -45,7 +45,9 @@ jscore.setTune(tune);
 }}}
 to get :
 
-[http://farm2.static.flickr.com/1361/1417544947_2aee9eb888.jpg]
+http://u1.ipernity.com/u/3/E2/F6/1177314.c5c3b7121.l.jpg
+
+As you can noticed, bar lines are aligned at the end of each staff line.
 
 = Write a music score to a file =
 Scores rendered using the `JScoreComponent` can also be written to disk (as a .PNG file with transparent background color).
