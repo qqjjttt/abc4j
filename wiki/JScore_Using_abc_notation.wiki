@@ -19,6 +19,12 @@ CDEFGABcdefggfedcBAGFEDC
 To get it displayed, let's use the {{{abc.parser.TuneParser}}} class that is the most appropriated class to parse only 1 tune from its notation as a string.
 The code to achieve this is : 
 {{{
+import javax.swing.JFrame;
+
+import abc.notation.Tune;
+import abc.parser.TuneParser;
+import abc.ui.swing.JScoreComponent;
+
 public static void main (String[] arg) {
 	String tuneAsString = "X:0\nT:A simple scale exercise\nK:D\nCDEFGABcdefggfedcBAGFEDC\n";
 	Tune tune = new TuneParser().parse(tuneAsString);
