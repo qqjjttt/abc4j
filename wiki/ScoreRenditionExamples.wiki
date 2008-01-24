@@ -7,7 +7,6 @@ X:2
 T:Infernal
 C:Annibal Augusto Sardinha
 R:Choro
-Q:1/4=180
 M:2/4
 K:C
 |: E2cA EcAE | F2cA FcAF | E^GBd fe^de | fecA ^G=G_GF | E2cA EcAE |
