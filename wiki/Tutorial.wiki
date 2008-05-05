@@ -109,3 +109,18 @@ player.play(tune);
 .
 ..
 }}}
+
+=How to convert a tune into a midi file=
+The conversion of a tune object into a midi file is achieved using the abc4j MidiConverter concept and some features of JavaSound : 
+{{{
+//The midi file result
+File file = new File("test.mid");
+//Create a converter to convert a tune into midi sequence
+MidiConverterAbstract conv = new BasicMidiConverter();
+//convert it !
+Sequence s = conv.toMidiSequence(t);
+//All available midi file type for the tune's sequence
+int[] types = MidiSystem.getMidiFileTypes(s);
+//Write the sequence as a midi file.
+MidiSystem.write(s,types[0],file);
+}}}
